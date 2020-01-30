@@ -1,0 +1,21 @@
+.users {
+  border: 1px solid orange;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  display: table;
+  width: 100%;
+  border-spacing: 5px;
+  border-collapse: collapse;
+}
+.users > li {
+  display: table-row;
+}
+.users > li:nth-child(even) {
+  color: gray;
+  background-color: #eaeaea;
+}
+.users > li > span {
+  display: table-cell;
+  padding: 3px;
+}
