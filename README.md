@@ -6,7 +6,7 @@ yarn install
 yarn start
 ```
 
-This starte app uses following dependencies
+This starter app uses following dependencies
 ```
 axios
 immutability-helper
